@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<meta type-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+    <title>Local</title>
+    <link rel="stylesheet" type="text/css" href="css/new-version.css">
+    <link rel="stylesheet" type="text/css" href="css/gameSetting.css">
+</head>
+<body>
+<div class="top-nav-login top-nav f-cb">
+    <ul>
+        <li class="logo left">.</li>
+        <li class="left"><a href="index.html">Home</a></li>
+        <li class="left"><a href="rule.html">Rules</a></li>
+        <!-- <li class="left"><a href="team.html">Team</a></li> -->
+        <li class="left nav-on here"><a href="#">Play Game</a></li>
+
+        <!-- <div class="right sign-nav">
+            <form id="" class="">
+                <input placeholder="User Name" type="text" name="userName">&nbsp;
+                <input placeholder="Password" type="password" name="pw">
+                <input placeholder="Re-type password" type="password" name="re_pw">
+                <button style='background: url("img/signup-nav.png")'></button>
+            </form>
+        </div>
+        <div class="right sign-nav">
+            <form id="" class="">
+                <input placeholder="User Name" type="text" name="userName">&nbsp;
+                <input placeholder="Password" type="password" name="pw">
+                <button style='background: url("img/signin-nav.png")'></button>
+            </form>
+
+        </div> -->
+    </ul>
+    <div class="remainder">click name to settings</div>
+</div>
+<div class="selection-nav f-cb">
+    <ul>
+        <li class="left selection-nav-on here"><a href="#">Hot Seat</a></li>
+        <li class="left"><a href="playGameAI.html">vs.AI</a></li>
+        <li class="left"><a href="playGameNetwork.html">vs.Online Users</a></li>
+    </ul>
+</div>
+<div class="canvas f-cb">
+    <div class="board">
+        <div id="canvas-board">
+            <div class="remove-ul-default customize">
+                <ul>
+                    <li>
+                        <div id="view-playedGame">
+                           <!--  Uses online:
+                            <table class="spec-table">
+                                <thead>
+                                    <tr><th>Game Id</th><th>State</th><th>Play With</th></tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>1111</td><td>Win</td><td>--</td></tr>
+                                    <tr><td>2222</td><td>Win</td><td>--</td></tr>
+                                    <tr><td>3333</td><td>Win</td><td>--</td></tr>
+                                </tbody>
+                            </table> -->
+                        </div>
+                    </li>
+                    <li class="f-cb">
+                        <div class="left">Choose your token: White First</div>
+                        <!-- <select class="left sel-token" id="tokenColor">
+                            <option>White</option>
+                            <option>Black</option>
+                        </select> -->
+                    </li><br>
+                    <li>
+                        <div>Choose your background:</div>
+                        <div class="bg-sel" id="bg-customize">
+                            <input type="checkbox" value="burlywood;darkkhaki"><img src="img/bg1.png">
+                            <input type="checkbox" value="burlywood"><img src="img/bg3.png">
+                            <input type="checkbox" value="bisque"><img src="img/bg4.png">
+                            <input type="checkbox" value="cadetblue"><img src="img/bg5.png">
+
+                        </div>
+                    </li><br>
+                    <li class="f-cb">
+                        <div class="left">Choose your board size:</div>
+                        <select class="left sel-token" id="size">
+                            <option value="9">9 * 9</option>
+                            <option value="13">13 * 13</option>
+                            <option value="19">19 * 19</option>
+                        </select>
+                    </li>
+                </ul>
+                <button class="play-button" id="play-button">PLAY</button>
+            </div>
+        </div>
+
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="js/style.js"></script>
+<script type="text/javascript" src="js/svgFactory.js"></script>
+<script type="text/javascript" src="js/ServerInterface.js"></script>
+<script type="text/javascript" src="js/MatchmakingServerInterface.js"></script>
+</html>
